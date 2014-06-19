@@ -1,0 +1,121 @@
+/* MAIN CSS FILE */
+
+/*IMPORTS*/
+
+/*Open Sans Font*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	background-image: url('../img/dirt.png');
+	font-family: 'Open Sans';
+}
+
+/*Navigation Bar*/
+
+.navbar {
+	background-image: url('../img/Grass.jpg');
+	width: 100%;
+	height: 48px;
+	position: fixed;
+	z-index: 999;
+	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-container {
+	margin: auto;
+}
+
+.navbar-header {
+	width: 200px;
+	height: 48px;
+	border-right: 3px solid rgba(0, 0, 0, 0.5); 
+}
+
+.navbar-nav > a {
+	position: absolute;
+	text-decoration: none;
+	color: #FCFCFC;
+	margin-top: -42px;
+	-webkit-transition: font-size 1s;
+	transition: font-size 1s;
+}
+
+.navbar-header > a {
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+	margin-left: 10px;
+	font-size: 32px;
+	position: relative;
+	text-decoration: none;
+	color: #FCFCFC;
+}
+
+#nav-1 {
+	margin-left: 210px;
+}
+
+#nav-2 {
+	margin-left: 300px;
+}
+
+#nav-3 {
+	margin-left: 390px;
+}
+
+#nav-4 {
+	margin-left: 490px;
+}
+
+.navbar-active > a {
+	text-decoration: underline;
+}
+
+.navbar-nav > a:hover {
+	font-size: 26px;
+}
+
+/*Header Box*/
+
+.header-box {
+	background-image: url('../img/5PGNJ.jpg');
+	width: 100%;
+	height: 450px;
+	box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+	color: #FCFCFC;
+	margin-top: 150px;
+	position: absolute;
+	font-size: 82px;
+	margin-left: 50px;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+	border-bottom: 3px solid rgba(255, 255, 255, 0.375);
+}
+
+.header-sub {
+	position: absolute;
+	color: #FCFCFC;
+	margin-left: 55px;
+	margin-top: 270px;
+	font-size: 30px;
+}
+
+.well a {
+	text-align: center;
+	margin: auto;
+	color: inherit;
+	font-size: 24px;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.well {
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#sword {
+	height: 320px;
+	width: 320px;
+	margin-top: 80px;
+	margin-left: 700px;
+}
